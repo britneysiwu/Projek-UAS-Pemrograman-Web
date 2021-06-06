@@ -1,0 +1,143 @@
+* {
+    font-family: calibri;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+  }
+
+.label {
+    color:rgb(252, 141, 215);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(purp.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.tim {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    line-height: 5px;
+    color: white;
+    bottom: 0;
+    padding: 15px 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 50px;
+    text-align: center;
+    color: #8987fd;
+    
+}
+
+.container { 
+    line-height:40%;
+    width: 320px;
+    height: 420px;
+    background: rgba(255, 255, 255, 0.952);
+    color: #0f0f0f;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 70px 30px;
+}
+
+.container p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.buttons {
+    margin-top: 2%;
+}
+
+button {
+    background-color: #8987fd;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: rgb(252, 141, 215);
+    color: #fff;
+    cursor: pointer;
+}
+
+.status {
+   text-align: center;
+   color: rgb(252, 141, 215);;
+   
+}
+
+input[type=text] {
+    padding: 0,5%;
+    margin:2px 0;
+    margin-bottom: 20px;
+  transition: .3s border-color;
+  width: 185%;
+  height: 20px;
+  color: rgb(252, 141, 215);
+  }
+
+  input[type=password] {
+    padding: 0,5%;
+    margin:2px 0;
+  transition: .3s border-color;
+  width: 100%;
+  height: 20px;
+  color: rgb(252, 141, 215);
+  }
+
+  input[type=text], input[type=password] {
+      border: none;
+      border-bottom: 1px solid #8987fd;
+      background: transparent;
+      outline: none;
+      height: 40px;
+  }
+
+  input[type=text]::placeholder{
+      color: #8987fd;
+  }
+
+  input[type=password]::placeholder{
+    color: #8987fd;
+}
+
+  .row {
+    display: table-row;
+}
+
+ 
+
+.inform {
+    justify-content: center;
+}
+
+label:first-of-type {
+    margin-top: 0;
+}
+
+label, input {
+    margin-left: 0px;
+}
