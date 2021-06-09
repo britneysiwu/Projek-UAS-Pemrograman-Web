@@ -29,6 +29,7 @@ session_start();
         <!-- <h1 class="title">MEMORIZE HELPER</h1> -->
 
         <div class="buttons">
+        <button><a href="https://www.unsrat.ac.id/">UNSRAT</a></button>
         <button><a href="logout.php">Keluar</a></button>
         <button><a href ="tambah.php">Tambah Istilah</button>
         <button><a href ="index.php">Mulai</button>
