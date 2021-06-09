@@ -66,6 +66,7 @@ if (isset($_POST['submit'])) {
         
         </div>
         <div class="tim">
+        <a href="https://www.unsrat.ac.id/" style="font-size: 30px">UNSRAT</a>
             <p style="font-weight: bold; ">TEAM</p>
             <p>Andinni, Britney, Jeremy, Tarisa</p>
             </div>
